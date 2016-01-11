@@ -10,7 +10,7 @@ public class Kata1 {
         Calendar birthday = GregorianCalendar.getInstance();
         birthday.set(1995,7,14);
         
-        Person persona = new Person("Adrián", "Louro", birthday);
+        Person persona = new Person("Guillermo", "Cubero", birthday);
         
         System.out.println(persona.getFullName() + " tiene " + persona.getAge() + " años.");
     }
